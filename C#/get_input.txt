@@ -1,0 +1,10 @@
+using System;
+class Input
+{
+    public static void Main(String[]args)
+    {
+        int age=Convert.ToInt32(Console.ReadLine());
+        string name=Console.ReadLine();
+        Console.WriteLine(age+name);
+    }
+}
